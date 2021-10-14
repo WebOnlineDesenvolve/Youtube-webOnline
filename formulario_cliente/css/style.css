@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+} 
+body{
+	/*caso  a imagem não funcione colocamos uma cor */
+	background-color: royalblue;
+	background-image: url("../imagem/img_1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	width: 100%; 
+}
+.form{
+overflow: hidden;
+background:#d3d3d3;
+width: 50%;
+height: 70%;
+margin:50px auto ;
+text-align: center;
+border: 2px solid #069;
+border-radius: 10px;
+
+}
+h1{
+	background: #069;
+}
+input,select{
+	border-radius: 10px;
+	height: 30px;
+	border: none;
+	margin: 5px;
+}
+input[type="radio"]{
+		height: 12px;
+}
+input[type="submit"]{
+	cursor: pointer;
+	border-radius: 5px;
+	border: none;
+	width: 80px;
+	height: 35px;
+}
+input[type="button"]{
+	cursor: pointer;
+	border-radius: 5px;
+	border: none;
+	width: 80px;
+	height: 35px;
+}
+input[type="submit"]:hover{
+	background: #069;
+	color: #fff;
+}
+input[type="button"]:hover{
+	background: #069;
+	color: #fff;
+}
+@media (max-width: 680px) {
+		.form { 
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		width: 80%;
+		height: auto;
+		margin-top: 0   ;
+}
+		input, label{ 
+		margin: 5px;
+			}   
+}
