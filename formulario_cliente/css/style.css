@@ -16,15 +16,14 @@ body{
 	width: 100%; 
 }
 .form{
-overflow: hidden;
-background:#d3d3d3;
-width: 50%;
-height: 70%;
-margin:50px auto ;
-text-align: center;
-border: 2px solid #069;
-border-radius: 10px;
-
+	overflow: hidden;
+	background:#d3d3d3;
+	width: 50%;
+	height: 70%;
+	margin:50px auto ;
+	text-align: center;
+	border: 2px solid #069;
+	border-radius: 10px;
 }
 h1{
 	background: #069;
@@ -36,7 +35,7 @@ input,select{
 	margin: 5px;
 }
 input[type="radio"]{
-		height: 12px;
+	height: 12px;
 }
 input[type="submit"]{
 	cursor: pointer;
@@ -61,15 +60,15 @@ input[type="button"]:hover{
 	color: #fff;
 }
 @media (max-width: 680px) {
-		.form { 
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		width: 80%;
-		height: auto;
-		margin-top: 0   ;
-}
-		input, label{ 
-		margin: 5px;
-			}   
+	.form { 
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 80%;
+	height: auto;
+	margin-top: 0  ;
+	}
+	input, label{ 
+	margin: 5px;
+	}   
 }
