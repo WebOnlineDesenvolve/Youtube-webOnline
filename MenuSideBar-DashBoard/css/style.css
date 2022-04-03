@@ -1,0 +1,91 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	appearance: none;
+	font-family: 'Times New Roman', Times, serif;
+}
+body, html{
+	overflow-x: hidden;
+}
+.menu{
+	background-color: #131313;
+	position: fixed;
+	overflow: hidden;
+	height: 100vh;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 70px;
+	-webkit-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+	-webkit-transform: translateZ(0) scale(1,1);
+	transform: translateZ(0) scale(1,1);
+}
+.menu > ul{
+	margin: 5px 0;
+}
+.menu li{
+	position: relative;
+	display: block;
+	width: 250px;
+}
+.menu li > a{
+	position: relative;
+	width: 255px;
+	color: #8a8a8a;
+	display: table;
+	font-size: 16px;
+	text-decoration: none;
+	-webkit-transform: translateZ(0) scale(1,1);
+	transform: translateZ(0) scale(1,1);
+	-webkit-transition: all 0.15s linear;
+	transition: all 0.15s linear;
+}
+.menu .span-menu{
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	width: 180px;
+}
+.lista{
+	background-color: #131313;
+	text-transform: capitalize;
+}
+.lista-logo, .li-empresa, .li-contato{
+	background-color: #010101;
+	text-transform: capitalize;
+}
+.menu li:hover a, nav.menu li.active > a{
+	color: #fff;
+	background-color: #282828;
+}
+nav{
+	-webkit-user-select: none;
+	user-select: none;
+	box-shadow: 0 0 10px #282828;
+}
+.fa{
+	position: relative;
+	width: 60px;
+	height: 40px;
+	text-align: center;
+	top: 12px;
+}
+.menu:hover, nav.menu.expanded{
+	width: 250px;
+	overflow: hidden;
+}
+.home{
+	width: 100%;
+	height: 100vh;
+	background: rgba(46, 96, 116, 0.8) url(../imagem/img_1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-blend-mode: darken;
+}
