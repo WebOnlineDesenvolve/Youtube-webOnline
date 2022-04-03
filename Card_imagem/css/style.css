@@ -1,0 +1,60 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Times New Roman', Times, serif;
+}
+body{
+	overflow-x: hidden;
+	background: rgba(10, 10, 10, 0.9);
+	
+	
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.container .content{
+	width: 300px;
+	height: 300px;
+	margin:30px;
+	align-items: center;
+}
+.container .content img{
+	max-width: 100%;
+	height: 300px;
+}
+.container .content:hover img{
+	opacity: 0.5;
+	cursor: pointer;
+	border-radius: 10px;
+	box-shadow: 2px 2px 20px #494848,
+	-2px -2px 20px #494848;
+}
+.container .content .texto{
+	position: relative;
+	margin-top: -240px;
+	text-align: center;
+	visibility: hidden;
+	transition: 0.3s ease-in-out;
+}
+.container .content:hover .texto{
+	visibility: visible;
+	transition-delay: 0.3s;
+	cursor: pointer;
+	text-shadow: 0 2px 0 rgb(44, 11, 231);
+}
+h3{
+	color: #000;
+	font-size: 25px;
+}
+p{
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+}
