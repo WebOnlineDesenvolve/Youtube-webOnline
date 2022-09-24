@@ -1,0 +1,80 @@
+@charset"utf-8";
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #121219;
+}
+/*div conteúdo icons*/
+.content-sociais{
+   position: absolute;
+   bottom: 0;
+   right: 0;
+    text-align: center; 
+}
+/*div com os icons*/
+.content-sociais .sociais{
+    background-color: #181828;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.icons-sociais{
+    font-size: 0;
+    line-height: 0;
+}
+/*tag 'a' icons*/
+a.sociais-icons{
+    display: inline-block;
+    -o-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    line-height: 16px;
+    background-color: #191927;
+    padding: 20px;
+    margin: 5px 10px;
+    border-radius: 50%;
+    border: 1px solid #28284c;
+    box-shadow: 3px 9px 16px rgba(0, 0, 0, 0.4), -3px -3px 1px rgba(255, 255, 255, 0.03), inset 14px 14px 26px rgba(0, 0, 0, 0.4), inset 3px -3px 15px rgba(255, 255, 255, 0.05);
+}
+/* tag 'i'*/
+.sociais-icons i{
+    width: 16px;
+    height: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    display: inline-block;
+    line-height: 16px;
+    vertical-align: top;
+    font-size-adjust: none;
+    font-kerning: auto;
+    font-synthesis: weight style;
+    text-rendering: auto;
+    font-variant: normal;
+    font-feature-settings: normal;
+    font-language-override: normal;
+}
+.youtube{
+    color: #ff0000;
+}
+.instagram{
+    color: #9f3e8c;
+}
+.twitter{
+    color: #3a55b6;
+}
+.facebook{
+    color: #082798;
+}
+.github{
+    color: #555353;
+}
+a.sociais-icons:hover{
+    background: linear-gradient(to left, rgba(9, 29, 255, 0.129), #45499b, rgba(51, 0, 255, 0.15));box-shadow: 0px 0px 20px rgba(8, 1, 84, 0.8);
+    border-color: rgba(31, 6, 255, 0.5);
+}
